@@ -21,7 +21,7 @@ board and allow users to keep running searches and adding more images.
 We'll use an image search API from
 [Bing](https://docs.microsoft.com/en-us/bing/search-apis/bing-image-search/reference/endpoints).
 I'll provide an API key over Slack that you can use by pasting it into
-`apikey.example.js` and renaming the file `apikey.js`. You can then use the
+`apikey.js` and renaming the file `apikey.js`. You can then use the
 BING_API_KEY variable in your javascript code. You'll notice that `apikey.js` is
 in the `.gitignore` file; **please do not check the API key into GitHub**.
 Even if it's not found by bots run by malicious users, it will likely be found by
